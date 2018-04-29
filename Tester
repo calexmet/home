@@ -1,0 +1,80 @@
+<!DOCTYPE html en>
+
+<html>
+
+<!--head tag is used for title and styling-->
+	<head>
+		<title>
+		My First Website		
+		</title>
+		
+
+	<!-- use the style tag below to add CSS content, put it in the head section
+Specify the selector first (h1) the attribute and then the value needed
+	-->
+	
+	<style>
+	<!--use the below to change the color in your header-->
+	h1{
+	color: #555;
+	}
+	
+	<!-- use the below the change the color in your font or font type/size for your paragraphs-->
+	p {color: red;
+font-family: arial;
+font-size: 20px;
+	
+		<!-- use the below to add a border-->
+		border: 1px solid red;}
+		
+	</style>
+		
+		</head>
+		
+		<!--where everything the user will see goes-->
+
+		<body>
+
+<!--insert image tag below-->
+		<img src="test.jpg" alt="description" width="100" height="48" />	
+
+		<h1>My company logo</h1>
+	
+	
+	
+	<p>Test test test lots of test and text</p>
+	
+	<!--list text below for unordered list-->
+	
+	<ul>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+</ul>
+
+<!--to create input boxes and a submit button-->
+
+<form>
+
+<input text type= "text"  name="username" placeholder="username">
+<input text type="password" name="password" placeholder="password">
+
+<input type="submit">
+
+</form>
+		
+
+		
+
+<h1>Super long text etc etc etc lorem ipsem</h1>
+
+
+
+</body>
+
+<!--To put footer info below such as copyright-->
+<footer>Copyright</footer>
+
+
+
+</html>
